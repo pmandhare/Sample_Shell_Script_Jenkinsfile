@@ -9,18 +9,18 @@ pipeline {
             }
         }
     }
-    stages {
+   
         stage('test') {
             steps {
                 echo "this is tesing "
             }
         }
-    }
-    stages {
+   
+  
         stage('deploy') {
             steps {
                 echo "deploying"
             }
-        }
+      
     }
 }
