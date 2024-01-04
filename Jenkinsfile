@@ -8,19 +8,15 @@ pipeline {
                 sh './mydate.sh'
             }
         }
-    }
-   
         stage('test') {
             steps {
-                echo "this is tesing "
+                echo "this is testing"
             }
         }
-   
-  
         stage('deploy') {
             steps {
                 echo "deploying"
             }
-      
+        }
     }
 }
