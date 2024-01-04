@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('first') {
             steps {
-                echo 'Hello World'
+                echo "executing script"
+                sh 'mydate.sh'
             }
         }
     }
