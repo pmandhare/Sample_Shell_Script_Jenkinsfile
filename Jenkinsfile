@@ -4,7 +4,7 @@ pipeline {
         stage('first') {
             steps {
                 echo "executing script"
-                sh 'mydate.sh'
+                sh './mydate.sh'
             }
         }
     }
